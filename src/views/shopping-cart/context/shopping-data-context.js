@@ -3,7 +3,6 @@ import React, { createContext, useState } from "react";
 export const ShopContext = createContext();
 
 export const ShopContextProvider = (props) => {
-  const [cartData, setCartData] = useState([]);
   const [quantity, setQuantity] = useState(0);
   const [price, setPrice] = useState(11.9);
   const [subtotal, setSubtotal] = useState(0);
@@ -45,9 +44,6 @@ export const ShopContextProvider = (props) => {
       setProceed(true);
     }
   };
-  const updateCardData = (data) => {
-    setCartData(data);
-  };
 
   const handleReset = () => {
     setSubtotal(0);
@@ -69,7 +65,6 @@ export const ShopContextProvider = (props) => {
         subtotal,
         shipping,
         proceed,
-        updateCardData,
       }}
     >
       {props.children}

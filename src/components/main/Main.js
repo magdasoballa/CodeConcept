@@ -2,8 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { List } from "../list/List";
 import { ProductData } from "../productData/ProductData";
 import { ShopContext } from "../../views/shopping-cart/context/shopping-data-context";
-import { fetchCartItems } from "../../services/fetchCartItems";
-import mockProductData from "../../mocks/data";
+import { fetchCartItems } from "../../services";
 import "./styles.scss";
 
 export const Main = () => {
