@@ -1,0 +1,24 @@
+.title {
+  color: $main-light;
+  font-weight: lighter;
+  margin-left: 5%;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.header {
+  background-color: $main-dark;
+  color: $main-light;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  font-size: 1.25rem;
+  margin-top: 100px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}

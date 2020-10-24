@@ -1,0 +1,13 @@
+.part-top-bottom {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  color: darkslategray;
+  font-weight: bold;
+  padding-top: 40px;
+  .item {
+    width: 15%;
+    text-align: left;
+  }
+}

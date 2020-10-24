@@ -1,0 +1,31 @@
+@import "../../styles/_colors.scss";
+
+.cart-wrapper {
+  border: 1px solid $main-light;
+  width: 65vw;
+  min-height: 100px;
+  margin-left: 5%;
+  margin-top: 30px;
+  .empty-list-message {
+    margin: 50px auto;
+    font-size: 20px;
+    text-align: center;
+  }
+  .cart-footer {
+    height: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    .update-cart-btn {
+      background-color: $main-dark;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 10px;
+      cursor: pointer;
+      padding: 10px;
+      margin-left: 10px;
+      width: calc(15% - 10px);
+    }
+  }
+}
